@@ -1,7 +1,14 @@
 package examenfinalparte1;
+
 import java.io.IOException;
+
+
 public class Prin {
+    
+    
 public static void main(String[] args) throws IOException{
+    
+    
 Principal obj = new Principal(10,20);
 int n = obj.i;
 System.out.println("Es: " + n);
