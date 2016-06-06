@@ -6,11 +6,11 @@ public class Principal {
     int q;
     
 public Principal(int j, int m) {
-    q=met(j,m);
+    q=metodo(j,m);
 }
 
 public Principal(int j) {
-        q=met(j,j);
+        q=metodo(j,j);
 }
     
 public Principal() { 
@@ -18,7 +18,7 @@ public Principal() {
     
 }
 
-public int met(int x, int x1) {
+public int metodo(int x, int x1) {
       return x + x1;
     }
 }
