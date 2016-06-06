@@ -11,9 +11,14 @@ public static void main(String[] args) throws IOException{
     
         VisualizacionVariN();
         VisualizacionVariM();
-Principal mn = new Principal();
-int nn = mn.i;
-System.out.println("Es: " + nn);}
+        VisualizacionVarNN();
+}
+
+    public static void VisualizacionVarNN() {
+        Principal mn = new Principal();
+        int nn = mn.i;
+        System.out.println("Es: " + nn);
+    }
 
     public static void VisualizacionVariM() {
         Principal nm = new Principal(10);
